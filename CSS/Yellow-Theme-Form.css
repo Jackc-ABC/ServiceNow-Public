@@ -1,12 +1,21 @@
+/*
+*    ___ _____     _______  _____  __   _____ 
+*   |_  /  __ \   / / __  \|  _  |/  | |  _  |
+*     | | /  \/  / /`' / /'| |/' |`| |  \ V / 
+*     | | |     / /   / /  |  /| | | |  / _ \ 
+* /\__/ / \__/\/ /  ./ /___\ |_/ /_| |_| |_| |
+* \____/ \____/_/   \_____/ \___/ \___/\_____/
+*             - Nihil novi sub sole -
+*/
+
 body {
-  background: url(/po_bg.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background: url(/po_bg.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	font-size: 14px;
 }
-
 .login-dark form {
 	/*max-width:90%;*/
 	/*width:90%;*/
@@ -14,7 +23,6 @@ body {
 	border-radius: 4px;
 	color: #fff;
 }
-
 .login-dark form .form-control {
 	background: none;
 	border: 1px solid #bdc0c4;
@@ -26,7 +34,6 @@ body {
 	font-size: 14px;
 	font-family: 'Nunito Sans', sans-serif;
 }
-
 .login-dark form .btn-primary {
 	background: #214a80;
 	border: none;
@@ -37,23 +44,19 @@ body {
 	text-shadow: none;
 	outline: none;
 }
-
 .login-dark form .btn-primary:hover,
 .login-dark form .btn-primary:active {
 	background: #214a80;
 	outline: none;
 }
-
 .login-dark form .forgot:hover,
 .login-dark form .forgot:active {
 	opacity: 1;
 	text-decoration: none;
 }
-
 .login-dark form .btn-primary:active {
 	transform: translateY(1px);
 }
-
 h3 {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 16px;
@@ -64,94 +67,78 @@ h3 {
 	background: #e8e8e8;
 	font-weight: 600;
 }
-
 h6 {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 13px;
 	color: gray;
 }
-
 #tip {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 14px;
 	Padding: 5px;
 	color: gray;
 }
-
-
 .noresize {
 	resize: none;
 }
-
 i {
 	margin-right: 10px;
 	color: grey;
 }
-
 .btn-default {
 	background-color: #FFFFFF;
 }
-
 .btn-default:hover {
 	background-color: #FFFFFF;
 }
-
 .label {
 	background: #f2f2f2;
 	color: #424242;
 	font-size: 12px;
 	margin-bottom: 0px;
-	margin-top:10px;
+	margin-top: 10px;
 	bottom-padding: 10px;
 	align: justify;
 }
-
 label {
 	background: #f8f8f8;
 	color: #424242;
 	font-size: 14px;
-	padding:5px;
+	padding: 5px;
 }
-
 #headerFA {
 	color: #000000;
 }
-
 select {
 	min-width: 100%;
 	width: 100%;
 }
-
 #sys_display.zemp {
 	min-width: 95%;
 	margin-left: 2px;
 }
-
 table {
 	min-width: 100%;
 	padding: 0;
 	margin: 0;
 }
-
 .bodySmall {
 	padding: 5px;
 }
-
 #zQUERY\3A_lock {
 	display: none;
 	visibility: hidden;
 }
-
 .make_spacing_ok {
 	display: none;
 }
-
 #cancel_button {
 	display: none;
 	visibility: hidden;
 }
-			
 .sys_display.zmyListCollector {
-width:100%;
+	width: 100%;
 }
-.top-buffer { margin-top:20px; }
+.top-buffer {
+	margin-top: 20px;
+}
